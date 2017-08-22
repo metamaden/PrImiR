@@ -1,10 +1,10 @@
 # PrImiR
-**P**ai**r**wise predicted **I**nteractions for **miR***NAs 
-
-### Description
+**__P__**ai**__r__**wise predicted **__I__**nteractions for **__miR__**NAs (pronounced: ˈpraɪmər)
+***
+## Description
 Database of pairwise consensuses for computationally predicted miR-mRNA target interactions.
 
-### Background
+## Background
 This package is downloadable using the following in R:
 ```require(devtools); install_github("metamaden/PrImiR")```
 
@@ -17,6 +17,8 @@ To mitigate the limitations of individual individual computational algorithms, t
 3. [miRDB (v.5.0)](http://www.mirdb.org/download.html)
 4. [miRTarBase (v.6.1)](http://mirtarbase.mbc.nctu.edu.tw/php/download.php)
 5. [miRmap (update 2013-01-09)](http://mirmap.ezlab.org/)
+
+***
 
 ## Supplemental Information
 #### 1. Database Consensus Visualization: Simple Heatmap of random subset (N=2k miR-mRNA interactions) of PrImiR pairwise consensus miR-mRNA interactions database, showing presence of miR-mRNA interactions (rows) across databases (columns). blue=0/not present; red=1/present
