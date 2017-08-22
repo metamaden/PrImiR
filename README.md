@@ -22,7 +22,8 @@ The science of miR target prediction is actively evolving. There is no universal
 ![PrImiR pairwise consensus heatmap summary](https://github.com/metamaden/PrImiR/blob/master/hm-consensus_interactions_2k.jpeg "PrImiR Interactions")
 
 The above heatmap was generated with the following code (cites objects in SI script 2, see below): 
-```library(ComplexHeatmap)
+```
+library(ComplexHeatmap)
 xhm <- as.matrix(pci.df[sample(nrow(pci.df),2000),3:7])
 class(xhm) <- "numeric" 
 
@@ -39,8 +40,12 @@ Heatmap(xhm,show_column_names = TRUE,
 The following script was used to assemble the pairwise consensus matrix of predicted miR-mRNA target interactions.
 ```
 #=========================================
+# 
 # assemble miR target consensus database
 # author: Sean Maden
+#
+#=========================================
+
 library(org.Hs.eg.db); library(data.table)
 
 # TargetScan 7.1 targets
