@@ -32,12 +32,11 @@ Heatmap(xhm,show_column_names = TRUE,
         cluster_rows=FALSE,
         name="Interaction\nin DB",
         row_title = "Predicted miR-mRNA\nInteraction (N=2000)",
-        column_title="Databases and Algorithms")'''
+        column_title="Databases and Algorithms")```
 
 ###2. Details for assembling pairwise consensus interaction databases.
 The following script was used to assemble the pairwise consensus matrix of predicted miR-mRNA target interactions.
-```
-#=========================================
+```#=========================================
 # assemble miR target consensus database
 # author: Sean Maden
 library(org.Hs.eg.db); library(data.table)
