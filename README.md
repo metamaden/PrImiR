@@ -10,11 +10,11 @@ This package is downloadable using the following in R:
 
 The science of miR target prediction is actively evolving. There is no universal consensus for all computationally predicted miR-mRNA target interactions, and in addition most computationally predicted interactions have not been validated in the wet lab. To mitigate the limitations of conditions for individual computational algorithms, this package provides a consensus database of predicted miRs and miRNA-mRNA target interactions using the latest available versions of five established and widely used miR databases and target prediction algorithms:
 
-1. Target Scan (v. 7.1)
-2. Miranda (v)
-3. miRDB (v)
-4. miRTarBase (v)
-5. miRmap (v)
+1. [Target Scan (v.7.1)](http://www.targetscan.org/vert_71/)
+2. [Miranda/mirSVR (update 2010-10)](http://www.microrna.org/microrna/getDownloads.do)
+3. [miRDB (v.5.0)](http://www.mirdb.org/download.html)
+4. [miRTarBase (v.6.1)](http://mirtarbase.mbc.nctu.edu.tw/php/download.php)
+5. [miRmap (update 2013-01-09)](http://mirmap.ezlab.org/)
 
 ## Supplemental Information
 #### 1. Database Consensus Visualization: Simple Heatmap of random subset (N=2k miR-mRNA interactions) of PrImiR pairwise consensus miR-mRNA interactions database, showing presence of miR-mRNA interactions (rows) across databases (columns). blue=0/not present; red=1/present
