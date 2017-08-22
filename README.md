@@ -2,12 +2,12 @@
 Pairwise predicted Interactions for miRNAs 
 
 ### Description
-Database of pairwise consensuses for miR-mRNA target interactions
+Database of pairwise consensuses for computationally predicted miR-mRNA target interactions.
 
+### Background
 This package is downloadable using the following in R:
 ```require(devtools); install_github("metamaden/PrImiR")```
 
-### Background
 The science of miR target prediction is actively evolving. There is no universal consensus for all computationally predicted miR-mRNA target interactions, and in addition most computationally predicted interactions have not been validated in the wet lab. To mitigate the limitations of conditions for individual computational algorithms, this package provides a consensus database of predicted miRs and miRNA-mRNA target interactions using the latest available versions of five established and widely used miR databases and target prediction algorithms:
 
 1. Target Scan (v. 7.1)
@@ -17,7 +17,7 @@ The science of miR target prediction is actively evolving. There is no universal
 5. miRmap (v)
 
 ## Supplemental Information
-###1. Database Consensus Visualization: Simple Heatmap of random subset (N=2k miR-mRNA interactions) of PrImiR pairwise consensus miR-mRNA interactions database, showing presence of miR-mRNA interactions (rows) across databases (columns). blue=0/not present; red=1/present
+#### 1. Database Consensus Visualization: Simple Heatmap of random subset (N=2k miR-mRNA interactions) of PrImiR pairwise consensus miR-mRNA interactions database, showing presence of miR-mRNA interactions (rows) across databases (columns). blue=0/not present; red=1/present
 
 ![PrImiR pairwise consensus heatmap summary](https://github.com/metamaden/methyPre/blob/master/hm-consensus_interactions_2k.jpg "PrImiR Interactions")
 
@@ -35,7 +35,7 @@ Heatmap(xhm,show_column_names = TRUE,
         column_title="Databases and Algorithms")
 ```
 
-###2. Details for assembling pairwise consensus interaction databases.
+#### 2. Details for assembling pairwise consensus interaction databases.
 The following script was used to assemble the pairwise consensus matrix of predicted miR-mRNA target interactions.
 ```
 #=========================================
