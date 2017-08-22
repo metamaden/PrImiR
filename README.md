@@ -19,7 +19,7 @@ The science of miR target prediction is actively evolving. There is no universal
 ## Supplemental Information
 #### 1. Database Consensus Visualization: Simple Heatmap of random subset (N=2k miR-mRNA interactions) of PrImiR pairwise consensus miR-mRNA interactions database, showing presence of miR-mRNA interactions (rows) across databases (columns). blue=0/not present; red=1/present
 
-![PrImiR pairwise consensus heatmap summary](https://github.com/metamaden/methyPre/blob/master/hm-consensus_interactions_2k.jpg "PrImiR Interactions")
+![PrImiR pairwise consensus heatmap summary](https://github.com/metamaden/PrImiR/blob/master/hm-consensus_interactions_2k.jpg "PrImiR Interactions")
 
 The above heatmap was generated with the following code (cites objects in SI script 2, see below): 
 ```library(ComplexHeatmap)
