@@ -18,6 +18,19 @@ To mitigate the limitations of individual computational algorithms, this package
 4. [miRTarBase (v.6.1)](http://mirtarbase.mbc.nctu.edu.tw/php/download.php)
 5. [miRmap (update 2013-01-09)](http://mirmap.ezlab.org/)
 
+## Citations
+Agarwal, Vikram, George W Bell, Jin-Wu Nam, David P Bartel. _Predicting effective microRNA target sites in mammalian mRNAs._ eLife 2015;4:e05005
+
+Betel D, Wilson M, Gabow A, Marks DS, Sander C. _The microRNA.org resource: targets and expression._ Nucleic Acids Res. 2008 Jan; 36(Database Issue): D149-53. 
+
+Chou CH, Chang NW, Shrestha S, et. al. _miRTarBase 2016: updates to the experimentally validated miRNA-target interactions database._ (2016) Nucleic acids research.
+
+Vejnar, Charles E. and Evgeny M. Zdobnov. _miRmap: Comprehensive prediction of microRNA target repression strength._ Nucleic Acids Research 2012 Dec 1;40(22):11673-83. doi: 10.1093/nar/gks901
+
+Wong, Nathan and Xiaowei Wang. _miRDB: an online resource for microRNA target prediction and functional annotations._ 2015 Nucleic Acids Research. 43(D1):D146-152.
+
+Wang, Xiaowei _Improving microRNA target prediction by modeling with unambiguously identified microRNA-target pairs from CLIP-Ligation studies_. 2016 Bioinformatics. 32(9):1316-1322.  
+
 ***
 
 ## Supplemental Information
@@ -224,36 +237,5 @@ pci.df[,6] <- ifelse(rownames(pci.df) %in% mtbx,1,0)
 pci.df[,7] <- ifelse(rownames(pci.df) %in% mmapx,1,0)
 pci.df[,8] <- apply(pci.df[,3:7],1,sum)
 
-#==============
-#
-#   Citations
-#
-#==============
-
-# 1. miRmap
-# Charles E. Vejnar and Evgeny M. Zdobnov
-# miRmap: Comprehensive prediction of microRNA target repression strength
-# Nucleic Acids Research 2012 Dec 1;40(22):11673-83. doi: 10.1093/nar/gks901
-
-# 2. TargetScan
-# Vikram Agarwal George W Bell Jin-Wu Nam David P Bartel
-# Predicting effective microRNA target sites in mammalian mRNAs
-# eLife 2015;4:e05005
-
-# 3a. miRDB 1 - database
-# Nathan Wong and Xiaowei Wang (2015) miRDB: an online resource for microRNA target prediction and functional annotations. Nucleic Acids Research. 43(D1):D146-152.
-
-# 3b. miRDB 2 - target finding algorithm
-# Xiaowei Wang (2016) Improving microRNA target prediction by modeling with unambiguously identified microRNA-target pairs from CLIP-Ligation studies. Bioinformatics. 32(9):1316-1322.  
-
-# 4. miRTarBase
-# miRTarBase 2016: updates to the experimentally validated miRNA-target interactions database.
-# Chou CH, Chang NW, Shrestha S, Hsu SD, Lin YL, Lee WH, Yang CD, Hong HC, Wei TY, Tu SJ, Tsai TR, Ho SY, Jian TY, Wu HY, Chen PR, Lin NC, Huang HT, Yang TL, Pai CY, Tai CS, Chen WL, Huang CY, Liu CC, Weng SL, Liao KW, Hsu WL, Huang HD. 
-# (2016) Nucleic acids research.
-
-# 5. Miranda target predictions
-# The microRNA.org resource: targets and expression. 
-# Betel D, Wilson M, Gabow A, Marks DS, Sander C., 
-# Nucleic Acids Res. 2008 Jan; 36(Database Issue): D149-53. 
 ```
-
+___
