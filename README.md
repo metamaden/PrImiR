@@ -1,5 +1,5 @@
 # PrImiR
-Pairwise predicted Interactions for miRNAs 
+**P**ai**r**wise predicted **I**nteractions for **miR***NAs 
 
 ### Description
 Database of pairwise consensuses for computationally predicted miR-mRNA target interactions.
