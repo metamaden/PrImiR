@@ -10,7 +10,7 @@ This package is downloadable using the following in R:
 
 The science of miR target prediction is actively evolving. There is no universal consensus for all computationally predicted miR-mRNA target interactions, and in addition most computationally predicted interactions have not been validated in the wet lab. 
 
-To mitigate the limitations of individual individual computational algorithms, this package provides a consensus database of predicted miRs (mature miRNAs) and miR-mRNA target interactions using the latest available versions of five established and widely used miRNA databases and target prediction algorithms:
+To mitigate the limitations of individual computational algorithms, this package provides a consensus database of predicted miRs (mature miRNAs) and miR-mRNA target interactions using the latest available versions of five established and widely used miRNA databases and target prediction algorithms:
 
 1. [Target Scan (v.7.1)](http://www.targetscan.org/vert_71/)
 2. [Miranda/mirSVR (update 2010-10)](http://www.microrna.org/microrna/getDownloads.do)
