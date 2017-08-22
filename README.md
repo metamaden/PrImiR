@@ -27,9 +27,9 @@ Chou CH, Chang NW, Shrestha S, et. al. _miRTarBase 2016: updates to the experime
 
 Vejnar, Charles E. and Evgeny M. Zdobnov. _miRmap: Comprehensive prediction of microRNA target repression strength._ Nucleic Acids Research 2012 Dec 1;40(22):11673-83. doi: 10.1093/nar/gks901
 
-Wong, Nathan and Xiaowei Wang. _miRDB: an online resource for microRNA target prediction and functional annotations._ 2015 Nucleic Acids Research. 43(D1):D146-152.
-
 Wang, Xiaowei _Improving microRNA target prediction by modeling with unambiguously identified microRNA-target pairs from CLIP-Ligation studies_. 2016 Bioinformatics. 32(9):1316-1322.  
+
+Wong, Nathan and Xiaowei Wang. _miRDB: an online resource for microRNA target prediction and functional annotations._ 2015 Nucleic Acids Research. 43(D1):D146-152.
 
 ***
 
