@@ -24,7 +24,7 @@ The science of miR target prediction is actively evolving. There is no universal
 The above heatmap was generated with the following code (cites objects in SI script 2, see below): 
 ```library(ComplexHeatmap)
 xhm <- as.matrix(pci.df[sample(nrow(pci.df),2000),3:7])
-class(xhm) <- "numeric"
+class(xhm) <- "numeric" 
 
 Heatmap(xhm,show_column_names = TRUE,
         show_row_names = FALSE,
