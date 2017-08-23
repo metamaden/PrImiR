@@ -1,5 +1,5 @@
 # PrImiR
-Pairwise **_pr_**edicted **_I_**-nteractions for **_miR_**-NAs (/ˈprīmər/)
+Pairwise **_pr_**-edicted **_I_**-nteractions for **_miR_**-NAs (/ˈprīmər/)
 ***
 ## Description
 Database of pairwise consensuses for computationally predicted miR-mRNA target interactions.
