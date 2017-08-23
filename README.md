@@ -38,20 +38,9 @@ Wong, Nathan and Xiaowei Wang. _miRDB: an online resource for microRNA target pr
 
 ![PrImiR pairwise consensus heatmap summary](https://github.com/metamaden/PrImiR/blob/master/hm-consensus_interactions_2k.jpeg "PrImiR Interactions")
 
-The above heatmap was generated with the following code (cites objects in SI script 2, see below): 
-```
-library(ComplexHeatmap)
-xhm <- as.matrix(pci.df[sample(nrow(pci.df),2000),3:7])
-class(xhm) <- "numeric" 
+#### 2. Interactions (miR-mRNA targets) Predicted across databases
 
-Heatmap(xhm,show_column_names = TRUE,
-        show_row_names = FALSE,
-        cluster_columns = FALSE,
-        cluster_rows=FALSE,
-        name="Interaction\nin DB",
-        row_title = "Predicted miR-mRNA\nInteraction (N=2000)",
-        column_title="Databases and Algorithms")
-```
+![PrImiR Venn Diagram Consensus of Predicted Interactions Across Five Databases](https://github.com/metamaden/PrImiR/blob/master/venn-quintuple_PrImiR-db.jpg "PrImiR Predicted Interaction Consensus Across Five Databases")
 
 #### 2. Details for assembling pairwise consensus interaction databases.
 The following script was used to assemble the pairwise consensus matrix of predicted miR-mRNA target interactions.
