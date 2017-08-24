@@ -13,7 +13,7 @@ The science of miR target prediction is actively evolving. There is no universal
 To mitigate the limitations of individual computational algorithms, this package provides a database of consensus predicted miRs (mature miRNAs) and miR-mRNA target interactions (present in at least two databases) using the latest available versions of five established and widely used miRNA databases and target prediction algorithms:
 
 1. [Target Scan (v.7.1)](http://www.targetscan.org/vert_71/)
-2. [Miranda/mirSVR (update 2010-10)](http://www.microrna.org/microrna/getDownloads.do)
+2. [Miranda/mirSVR (update 2010-08)](http://www.microrna.org/microrna/getDownloads.do)
 3. [miRDB (v.5.0)](http://www.mirdb.org/download.html)
 4. [miRTarBase (v.6.1)](http://mirtarbase.mbc.nctu.edu.tw/php/download.php)
 5. [miRmap (update 2013-01-09)](http://mirmap.ezlab.org/)
